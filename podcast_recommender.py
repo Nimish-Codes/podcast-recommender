@@ -4,7 +4,7 @@ import random
 # Define a dictionary of podcasts with categories
 podcasts = {
     "Technology": ["The Vergecast", "Reply All", "Syntax", "TED Radio Hour"],
-    "Comedy": ["The Joe Rogan Experience", "My Dad Wrote A Porno", "Conan O'Brien Needs A Friend"],
+    "Comedy": ["The Joe Rogan Experience", "My Dad Wrote A Poem", "Conan O'Brien Needs A Friend"],
     "True Crime": ["Serial", "Crime Junkie", "My Favorite Murder"],
     "Science": ["Science Vs", "Stuff You Should Know", "Radiolab"],
     "Business": ["How I Built This", "The Indicator from Planet Money", "Freakonomics Radio"],
