@@ -3,7 +3,7 @@ import random
 
 # Define a dictionary of podcasts with categories
 podcasts = {
-    "Select category": ["Select category", "_", "_"],
+    "Select category": [],
     "Technology": ["The Vergecast", "Reply All", "Syntax", "TED Radio Hour"],
     "Comedy": ["The Joe Rogan Experience", "My Dad Wrote A Poem", "Conan O'Brien Needs A Friend"],
     "True Crime": ["Serial", "Crime Junkie", "My Favorite Murder"],
@@ -43,6 +43,6 @@ if selected_category in podcasts:
     recommended_podcasts = random.sample(podcasts[selected_category], 2)
     st.write(f"Recommended podcasts from the {selected_category} category:")
     for podcast in recommended_podcasts:
-        st.success("-", podcast)
+        st.write("-", podcast)
 else:
     st.error("Sorry, the category you selected is not available.")
